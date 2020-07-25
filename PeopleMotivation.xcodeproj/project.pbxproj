@@ -40,6 +40,7 @@
 		7E92C5B724C5FFCB00F7519E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7ECBB0312492AB3800EFD434 /* LaunchScreen.storyboard */,
 				7ECBB02C2492AB2E00EFD434 /* Main.storyboard */,
 			);
 			path = View;
@@ -85,7 +86,6 @@
 				7ECBB0262492AB2E00EFD434 /* AppDelegate.swift */,
 				7ECBB0282492AB2E00EFD434 /* SceneDelegate.swift */,
 				7ECBB02F2492AB3800EFD434 /* Assets.xcassets */,
-				7ECBB0312492AB3800EFD434 /* LaunchScreen.storyboard */,
 				7ECBB0342492AB3800EFD434 /* Info.plist */,
 			);
 			path = PeopleMotivation;
@@ -308,7 +308,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PeopleMotivation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -316,6 +318,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Brunoprojects.PeopleMotivation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -325,7 +328,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PeopleMotivation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -333,6 +338,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Brunoprojects.PeopleMotivation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
