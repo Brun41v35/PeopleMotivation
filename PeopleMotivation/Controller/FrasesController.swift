@@ -25,8 +25,7 @@ class FrasesViewController: UIViewController {
         , "Nunca desista dos seus sonhos!"
         , "No tempo certo, tudo dará certo"
         , "Se jogue no que te faz sorrir."
-        , "Amanha é um novo dia!"
-        , "Não tem hora melhor do que o agora!"]
+        , "Amanha é um novo dia!"]
         guard let random = lista.randomElement() else {return}
         txtFrase.text = random
     }
